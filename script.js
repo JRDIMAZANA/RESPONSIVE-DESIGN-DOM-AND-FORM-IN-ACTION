@@ -22,10 +22,9 @@ studentForm.addEventListener('submit', (e) => {
     studentCard.style.padding = "10px"
     studentCard.style.margin = "12px 0"
     studentCard.innerHTML = `
-        <p>Name: ${studentName}</p>
-        <p>Program: ${programName}</p>
+        <p>${studentName}</p>
+        <p>${programName}</p>
     `;
-
     studentDetailsContainer.appendChild(studentCard);
 
 
